@@ -1,4 +1,4 @@
-package com.ahmedhemaz.stringCompression;
+package com.ahmedhemaz.arraysandstrings.stringCompression;
 
 public class StringCompression {
     public static void main(String[] args) {

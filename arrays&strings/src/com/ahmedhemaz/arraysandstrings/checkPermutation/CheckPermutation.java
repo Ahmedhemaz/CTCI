@@ -1,4 +1,4 @@
-package com.ahmedhemaz.checkPermutation;
+package com.ahmedhemaz.arraysandstrings.checkPermutation;
 
 import java.util.Arrays;
 import java.util.HashMap;

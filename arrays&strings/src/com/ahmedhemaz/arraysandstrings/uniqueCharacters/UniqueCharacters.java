@@ -1,4 +1,4 @@
-package com.ahmedhemaz.uniqueCharacters;
+package com.ahmedhemaz.arraysandstrings.uniqueCharacters;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.ahmedhemaz.urlify;
+package com.ahmedhemaz.arraysandstrings.urlify;
 
 public class URLfiy {
     public static void main(String[] args) {

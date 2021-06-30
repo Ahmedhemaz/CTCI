@@ -1,4 +1,4 @@
-package com.ahmedhemaz.palindromePermutation;
+package com.ahmedhemaz.arraysandstrings.palindromePermutation;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.ahmedhemaz.oneAway;
+package com.ahmedhemaz.arraysandstrings.oneAway;
 
 import java.util.HashSet;
 import java.util.Set;
