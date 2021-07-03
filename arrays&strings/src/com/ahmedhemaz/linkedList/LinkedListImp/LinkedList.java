@@ -1,7 +1,7 @@
 package com.ahmedhemaz.linkedList.LinkedListImp;
 
 public class LinkedList {
-    public class Node {
+    public static class Node {
         public int value;
         public Node next;
         public  Node(int value ) {
@@ -41,5 +41,8 @@ public class LinkedList {
 
     public Node getHead() {
         return this.head;
+    }
+    public void setHead(Node node) {
+        this.head = node;
     }
 }
