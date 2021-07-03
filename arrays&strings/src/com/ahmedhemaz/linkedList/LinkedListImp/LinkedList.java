@@ -1,9 +1,9 @@
-package com.ahmedhemaz.linkedList.removeDups;
+package com.ahmedhemaz.linkedList.LinkedListImp;
 
 public class LinkedList {
-    class Node {
-        int value;
-        Node next;
+    public class Node {
+        public int value;
+        public Node next;
         public  Node(int value ) {
             this.value = value;
         }
