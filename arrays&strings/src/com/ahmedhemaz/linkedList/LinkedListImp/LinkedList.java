@@ -22,6 +22,15 @@ public class LinkedList {
         }
     }
 
+    public Node getNodOf(int value) {
+        Node current = this.head;
+        while (current != null) {
+            if (current.value == value) return  current;
+            current = current.next;
+        }
+        return  null;
+    }
+
     public void printLinkedList(){
         Node temp = head;
         while (temp != null) {
