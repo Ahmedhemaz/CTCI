@@ -19,6 +19,41 @@ public class Partition {
 
     }
 
+
+    /* my solution of leetcode
+        Link: https://leetcode.com/problems/partition-list/submissions/
+    *  class Solution {
+    public ListNode partition(ListNode head, int x) {
+        ListNode smallListHead = new ListNode(0);
+        ListNode smallListRunner = smallListHead;
+        ListNode bigListHead = new ListNode(0);
+        ListNode bigListRunner = bigListHead;
+        ListNode runner = head;
+
+        while(runner != null) {
+            if(runner.val < x) {
+                smallListRunner.next = runner;
+                smallListRunner = smallListRunner.next;
+            }else {
+                bigListRunner.next = runner;
+                bigListRunner = bigListRunner.next;
+            }
+            runner = runner.next;
+        }
+
+        bigListRunner.next = null;
+        smallListHead = smallListHead.next;
+        bigListHead = bigListHead.next;
+        smallListRunner.next = bigListHead;
+        return smallListHead == null ? bigListHead : smallListHead;
+
+    }
+}
+    *
+    *
+    *
+    * */
+
     // bug when the partiation is the head node
     public static void partition(LinkedList ls, int partitionVal) {
         LinkedList.Node firstLowerNode = ls.getHead();
